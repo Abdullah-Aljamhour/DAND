@@ -212,7 +212,7 @@ def splitting(row,length):
 i=0
 size = df.shape[0] #size will be the whole df
 while i < size: #for each row in the data frame
-    splitting(split.iloc[i],len(split['genres'].iloc[i].split("|"))) # send the row and it's length to the function splitting
+    splitting(split.iloc[i],len(split['genres'].iloc[i].split("|"))) # send the row and it's length to the function splitting.
     i+=1 #increment
 
 
